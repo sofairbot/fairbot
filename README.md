@@ -46,13 +46,19 @@ You should see the version displayed
 
 Nice. Let's try a fairbot script.
 
-* Download test-fairbot.build.js
+* Download fairbot-test.build.js
 * Put it in the workspace
 * Open a command line
-* Run the command  `node test-fairbot.build.js paweltrader`
+* Run the command  `node fairbot-test.build.js paweltrader`
 
 You should see the number of football cards paweltrader owns. 
 You can change to any username.
 This username is special : it's called a **slug**. You can get it from the web page of a user gallery. All lowercase, without spaces.
 
 `https://sorare.com/football/gallery/paweltrader/cards`
+
+# Script list
+
+## fairbot-test
+
+Test your installation and connectivity with sorare api
