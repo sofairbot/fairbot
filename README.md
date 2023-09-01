@@ -26,9 +26,9 @@ This has to be done once and for all
 
 This is the development language used by the scripts. You need it to launch them. It's free, open-source and run on all computers
 
-Install it once and for all from the official website : https://nodejs.org/en/download
+Install it once and for all from the official website : [https://nodejs.org/en/download](https://nodejs.org/en/download)
 
-Recommended installer for a Windows computer : https://nodejs.org/dist/v18.17.1/node-v18.17.1-x86.msi
+Recommended installer for a Windows computer : [https://nodejs.org/dist/v18.17.1/node-v18.17.1-x86.msi](https://nodejs.org/dist/v18.17.1/node-v18.17.1-x86.msi)
 
 ### Workspace
 
@@ -39,7 +39,7 @@ Recommended : `C:/fairbot/`
 ### Run
 
 * Download and run the script of your choice in this folder
-* Open a command line in that folder following this tutorial https://www.lifewire.com/open-command-prompt-in-a-folder-5185505
+* Open a command line in that folder following this tutorial [here](https://www.lifewire.com/open-command-prompt-in-a-folder-5185505)
 * Run the command  `node name_of_the_script.build.js`
 
 
@@ -54,7 +54,7 @@ You should see the version displayed
 
 Nice. Let's try a fairbot script.
 
-* Download fairbot-test.build.js
+* Download [fairbot-test.build.js](https://github.com/sofairbot/fairbot/releases/download/fairbot-test/fairbot-test.build.js)
 * Put it in the workspace
 * Open a command line
 * Run the command  `node fairbot-test.build.js paweltrader`
