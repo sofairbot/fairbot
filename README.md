@@ -8,6 +8,14 @@ Fairbot is a set of plug and play scripts you can download and run with nodejs (
 
 Pick the script of your choice and you are up !
 
+# Does it need my credentials ?
+
+Some do, some don't. There's no magic here. It can't list your card without credentials...
+
+If the script requires to access private information about your accounts, like, your current balance, it needs your email and password.
+
+If the scripts requires to perform transactions (listing, buying, bidding), it requires your starkware private key as well.
+
 # Step-by-step
 
 ## Setup
