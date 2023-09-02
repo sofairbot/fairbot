@@ -133,7 +133,11 @@ A placeholder is ready in the file. Replace with your private key if you need it
 
 **Never EVER send this config file to anyone**
 
+From now on, everything is possible.
+
 # Script list
+
+Available scripts
 
 |Script   | credentials   | starkware key   | destails   | link |
 |---|---|---|---|---|
