@@ -148,7 +148,7 @@ Available scripts
 |---|---|---|---|---|
 |fairbot-test   | no  | no   |  Test your installation and connectivity with sorare api | [fairbot-test.build.js](https://github.com/sofairbot/fairbot/releases/download/fairbot-test/fairbot-test.build.js) |
 |setup   | yes  |no   |Setup once and for all the configuration required by other scripts |[setup.build.js](https://github.com/sofairbot/fairbot/releases/download/setup/setup.build.js)  |
-|   |   |   |   | |
+|pro-trades   | no  | no  | Listen to pro trades  | [pro-trades.build.js](https://github.com/sofairbot/fairbot/releases/download/pro-trades/pro-trades.build.js)  |
 
 # Who am I
 
