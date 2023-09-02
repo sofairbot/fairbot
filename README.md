@@ -66,7 +66,16 @@ Nice. Let's try a fairbot script.
 * Run the command  `node fairbot-test.build.js paweltrader`
 
 You should see the number of football cards paweltrader owns. 
+
+```
+limited 105717
+rare 40774
+superRare 2849
+unique 492
+```
+
 You can change to any username.
+
 This username is special : it's called a **slug**. You can get it from the web page of a user gallery. All lowercase, without spaces.
 
 `https://sorare.com/football/gallery/paweltrader/cards`
