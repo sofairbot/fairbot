@@ -80,12 +80,26 @@ This username is special : it's called a **slug**. You can get it from the web p
 
 `https://sorare.com/football/gallery/paweltrader/cards`
 
+## Setup credentials
+
+This setup has to be run once and for all
+
+It creates a file named `config/fairbot-config.json` with your bot/scripts credentials and configuration.
+
+Under the hood, it processes all required by sorare itself [here](https://github.com/sorare/api)
+
+Run it using the command `node setup.build.js`
+
+It requires : username (email), password and your gallery (to extract your slug from it)
+
+You can enter anything, it does not validate anything, just goes through all sorare api generation process. Try with bullshit it works. But will fail later if a script requires credentials... 
+
 # Script list
 
 |Script   | credentials   | starkware key   | destails   | link |
 |---|---|---|---|---|
 |fairbot-test   | no  | no   |  Test your installation and connectivity with sorare api | [fairbot-test.build.js](https://github.com/sofairbot/fairbot/releases/download/fairbot-test/fairbot-test.build.js) |
-|   |   |   |   | |
+|setup   | yes  |no   |Setup once and for all the configuration required by other scripts |[fairbot-test.build.js](https://github.com/sofairbot/fairbot/releases/download/setup/setup.build.js)  |
 |   |   |   |   | |
 
 # Who am I
