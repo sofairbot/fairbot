@@ -1,6 +1,11 @@
 # What's that
 
-Fairbot is the first bot designed to bring fairness in the world of sorare
+* Do you relist your cards manually? **Unfair**
+* Do you stack predefined marketplace filter to find a card on sale? **Unfair**
+* Do you spend hours finding cards to offer to? **Unfair**
+* Do you struggle using sorare's website poor UX? **Unfair**
+
+Fairbot is the first bot designed to bring fairness in the world of sorare.
 
 It is composed of a set of plug and play scripts you can download and run with your computer
 
