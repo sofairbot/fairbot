@@ -4,6 +4,10 @@ Fairbot is the first bot designed to bring fairness in the world of sorare
 
 It is composed of a set of plug and play scripts you can download and run with your computer
 
+It's free. 
+
+You can of course by me some coffees to support me : [buy me a coffee](https://www.buymeacoffee.com/jeremylavi)
+
 # How does it work
 
 Setup your workstation once and for all
