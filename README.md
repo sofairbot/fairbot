@@ -65,7 +65,7 @@ You should see the version displayed
 
 Nice. Let's try a fairbot script.
 
-* Download [fairbot-test.build.js](https://github.com/sofairbot/fairbot/releases/download/fairbot-test/fairbot-test.build.js)
+* Download [fairbot-test.build.js](https://github.com/sofairbot/fairbot/releases/download/release/fairbot-test.build.js)
 * Put it in the workspace
 * Open a command line
 * Run the command  `node fairbot-test.build.js paweltrader`
@@ -146,9 +146,9 @@ From now on, everything is possible.
 
 |Script   | credentials   | starkware key   | destails   | link |
 |---|---|---|---|---|
-|fairbot-test   | no  | no   |  Test your installation and connectivity with sorare api | [fairbot-test.build.js](https://github.com/sofairbot/fairbot/releases/download/fairbot-test/fairbot-test.build.js) |
-|setup   | yes  |no   |Setup once and for all the configuration required by other scripts |[setup.build.js](https://github.com/sofairbot/fairbot/releases/download/setup/setup.build.js)  |
-|pro-trades   | no  | no  | Listen to pro trades  | [pros-trades.build.js](https://github.com/sofairbot/fairbot/releases/download/pro-trades/pros-trades.build.js)  |
+|fairbot-test   | no  | no   |  Test your installation and connectivity with sorare api | [fairbot-test.build.js](https://github.com/sofairbot/fairbot/releases/download/release/fairbot-test.build.js) |
+|setup   | yes  |no   |Setup once and for all the configuration required by other scripts |[setup.build.js](https://github.com/sofairbot/fairbot/releases/download/release/setup.build.js)  |
+|pro-trades   | no  | no  | Listen to pro trades  | [pros-trades.build.js](https://github.com/sofairbot/fairbot/releases/download/release/pros-trades.build.js)  |
 
 ## Details
 
