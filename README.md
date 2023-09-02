@@ -82,17 +82,56 @@ This username is special : it's called a **slug**. You can get it from the web p
 
 ## Setup credentials
 
+### How does it work
+
 This setup has to be run once and for all
 
 It creates a file named `config/fairbot-config.json` with your bot/scripts credentials and configuration.
 
 Under the hood, it processes all required by sorare itself [here](https://github.com/sorare/api)
 
+### Generate it
+
 Run it using the command `node setup.build.js`
 
 It requires : username (email), password and your gallery (to extract your slug from it)
 
 You can enter anything, it does not validate anything, just goes through all sorare api generation process. Try with bullshit it works. But will fail later if a script requires credentials... 
+
+**Never, EVER, share this file content**
+
+### Open it
+
+You can open the file with any text editor, like Notepad++ (recommanded)
+
+Example of the file once generated :
+```
+{
+  "credentials": {
+    "email": "toto@gmail.com",
+    "passhash": "$2a$11$x2uvaXYcUFnGJOjFRpQOWOmNCgljQMhTDr1cfGz92TjX27g5IU0/O",
+    "mySlug": "paweltrader",
+    "starkwareKey": "<enter your starkware private key here>"
+  },
+  "options": {
+    "database": "C:/fairbot/db",
+    "currencies": [
+      "WEI",
+      "EUR"
+    ]
+  }
+}
+```
+
+### Add your starkware key
+
+If the script processes transactions, you need to add your starkware private key to sign transactions.
+
+A placeholder is ready in the file. Replace with your private key if you need it. Private key extraction is described in [sorare api website](https://github.com/sorare/api)
+
+**Never EVER send this key**
+
+**Never EVER send this config file to anyone**
 
 # Script list
 
