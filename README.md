@@ -99,7 +99,7 @@ You can enter anything, it does not validate anything, just goes through all sor
 |Script   | credentials   | starkware key   | destails   | link |
 |---|---|---|---|---|
 |fairbot-test   | no  | no   |  Test your installation and connectivity with sorare api | [fairbot-test.build.js](https://github.com/sofairbot/fairbot/releases/download/fairbot-test/fairbot-test.build.js) |
-|setup   | yes  |no   |Setup once and for all the configuration required by other scripts |[fairbot-test.build.js](https://github.com/sofairbot/fairbot/releases/download/setup/setup.build.js)  |
+|setup   | yes  |no   |Setup once and for all the configuration required by other scripts |[setup.build.js](https://github.com/sofairbot/fairbot/releases/download/setup/setup.build.js)  |
 |   |   |   |   | |
 
 # Who am I
