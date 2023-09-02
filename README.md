@@ -75,10 +75,6 @@ This username is special : it's called a **slug**. You can get it from the web p
 |   |   |   |   | |
 |   |   |   |   | |
 
-## fairbot-test
-
-Test your installation and connectivity with sorare api
-
 # Who am I
 
 - @JeremyLavi on Twitter
