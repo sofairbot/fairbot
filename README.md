@@ -2,11 +2,13 @@
 
 Fairbot is the first bot designed to bring fairness in the world of sorare
 
+It is composed of a set of plug and play scripts you can download and run with your computer
+
 # How does it work
 
-Fairbot is a set of plug and play scripts you can download and run with nodejs (more on that further)
+Setup your workstation once and for all
 
-Pick the script of your choice and you are up !
+Download the script of your choice and you are up !
 
 # Does it need my credentials ?
 
@@ -67,6 +69,21 @@ This username is special : it's called a **slug**. You can get it from the web p
 
 # Script list
 
+|Script   | credentials   | starkware key   | destails   | link |
+|---|---|---|---|---|
+|fairbot-test   | no  | no   |  Test your installation and connectivity with sorare api | [fairbot-test.build.js](https://github.com/sofairbot/fairbot/releases/download/fairbot-test/fairbot-test.build.js) |
+|   |   |   |   | |
+|   |   |   |   | |
+
 ## fairbot-test
 
 Test your installation and connectivity with sorare api
+
+# Who am I
+
+- @JeremyLavi on Twitter
+- Working with sorare API for a year
+- Unveiling sorare's ugliest issues
+- I work for free :)
+
+Most important : sorare knows who I am. In real life. Not hidding from them in any way.
