@@ -142,13 +142,37 @@ From now on, everything is possible.
 
 # Script list
 
-Available scripts
+## Available scripts
 
 |Script   | credentials   | starkware key   | destails   | link |
 |---|---|---|---|---|
 |fairbot-test   | no  | no   |  Test your installation and connectivity with sorare api | [fairbot-test.build.js](https://github.com/sofairbot/fairbot/releases/download/fairbot-test/fairbot-test.build.js) |
 |setup   | yes  |no   |Setup once and for all the configuration required by other scripts |[setup.build.js](https://github.com/sofairbot/fairbot/releases/download/setup/setup.build.js)  |
-|pro-trades   | no  | no  | Listen to pro trades  | [pro-trades.build.js](https://github.com/sofairbot/fairbot/releases/download/pro-trades/pro-trades.build.js)  |
+|pro-trades   | no  | no  | Listen to pro trades  | [pros-trades.build.js](https://github.com/sofairbot/fairbot/releases/download/pro-trades/pros-trades.build.js)  |
+
+## Details
+
+### fairbot-test
+
+See setup section
+
+### setup
+
+See setup section
+
+### pro-trades
+
+List all pros trades, either a listing or a transaction
+
+There's not many, be patient :)
+
+#### Run
+
+`node pros-trades.build.js`
+
+#### Expected results
+
+`Frenkie de Jong is listing https://www.soraredata.com/manager/frenkie-5ad7f7fe-d3c9-459c-9b1d-3dcc11d7db7b/sections/transactions`
 
 # Who am I
 
