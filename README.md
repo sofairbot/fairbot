@@ -150,11 +150,15 @@ From now on, everything is possible.
 
 # Script list
 
+There is 2 kinds of scripts :
+- listener : listen to real time moves in the platform. Must be always ran to give results. Like, show me what pros are doing real time.
+- exec : run and stops by itself after job complete. Like, extract last GW result.
+
 ## Available scripts
 
-|Script   | credentials   | starkware key   | destails   | link |
-|---|---|---|---|---|
-|fairbot-test   | no  | no   |  Test your installation and connectivity with sorare api | [fairbot-test.build.js](https://github.com/sofairbot/fairbot/releases/download/release/fairbot-test.build.js) |
+|Script   | type | credentials   | starkware key   | details   | link |
+|---|---|---|---|---|---|
+|fairbot-test   | |no  | no   |  Test your installation and connectivity with sorare api | [fairbot-test.build.js](https://github.com/sofairbot/fairbot/releases/download/release/fairbot-test.build.js) |
 |setup   | yes  |no   |Setup once and for all the configuration required by other scripts |[setup.build.js](https://github.com/sofairbot/fairbot/releases/download/release/setup.build.js)  |
 |pro-trades   | no  | no  | Listen to pro trades  | [pros-trades.build.js](https://github.com/sofairbot/fairbot/releases/download/release/pros-trades.build.js)  |
 
