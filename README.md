@@ -158,9 +158,9 @@ There is 2 kinds of scripts :
 
 |Script   | type | credentials   | starkware key   | details   | link |
 |---|---|---|---|---|---|
-|fairbot-test   | |no  | no   |  Test your installation and connectivity with sorare api | [fairbot-test.build.js](https://github.com/sofairbot/fairbot/releases/download/release/fairbot-test.build.js) |
-|setup   | yes  |no   |Setup once and for all the configuration required by other scripts |[setup.build.js](https://github.com/sofairbot/fairbot/releases/download/release/setup.build.js)  |
-|pro-trades   | no  | no  | Listen to pro trades  | [pros-trades.build.js](https://github.com/sofairbot/fairbot/releases/download/release/pros-trades.build.js)  |
+|fairbot-test   | exec |no  | no   |  Test your installation and connectivity with sorare api | [fairbot-test.build.js](https://github.com/sofairbot/fairbot/releases/download/release/fairbot-test.build.js) |
+|setup   | exec|yes  |no   |Setup once and for all the configuration required by other scripts |[setup.build.js](https://github.com/sofairbot/fairbot/releases/download/release/setup.build.js)  |
+|pro-trades   | listener | no  | no  | Listen to pro trades  | [pros-trades.build.js](https://github.com/sofairbot/fairbot/releases/download/release/pros-trades.build.js)  |
 
 ## Details
 
