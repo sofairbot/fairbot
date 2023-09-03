@@ -27,6 +27,14 @@ If the script requires to access private information about your accounts, like, 
 
 If the scripts requires to perform transactions (listing, buying, bidding), it requires your starkware private key as well.
 
+# Security warning
+
+- **Do not share your config.json file**
+- **Do not accept scripts from discord or any other download source**
+- **Do not send screenshot of your computer**
+- **Do not ask for help publicly**
+- **Send me a DM for any question**
+
 # Step-by-step
 
 ## Setup
@@ -89,9 +97,9 @@ This username is special : it's called a **slug**. You can get it from the web p
 
 ### How does it work
 
-This setup has to be run once and for all
+This setup has to be run once and for all. Only required if you plan to run authenticated scripts (see script listing below)
 
-It creates a file named `config/fairbot-config.json` with your bot/scripts credentials and configuration.
+It creates a file named `config/fairbot-config.json` with your bot/scripts credentials and configuration
 
 Under the hood, it processes all required by sorare itself [here](https://github.com/sorare/api)
 
