@@ -161,7 +161,7 @@ There is 2 kinds of scripts :
 |fairbot-test   | exec |no  | no   |  Test your installation and connectivity with sorare api | [fairbot-test.build.js](https://github.com/sofairbot/fairbot/releases/download/release/fairbot-test.build.js) |
 |setup   | exec|yes  |no   |Setup once and for all the configuration required by other scripts |[setup.build.js](https://github.com/sofairbot/fairbot/releases/download/release/setup.build.js)  |
 |pro-trades   | listener | no  | no  | Listen to pro trades  | [pros-trades.build.js](https://github.com/sofairbot/fairbot/releases/download/release/pros-trades.build.js)  |
-|simple-player-tracker   | listener | no  | no  | Listen to listings  | |
+|simple-player-tracker   | listener | no  | no  | Listen to player listings  | [simple-player-tracker.build.js](https://github.com/sofairbot/fairbot/releases/download/release/simple-player-tracker.build.js)  |
 
 ## Details
 
@@ -187,9 +187,8 @@ Usage : `node simple-player-tracker.build.js player1-slug:limited,player2-slug:r
 
 Notification can be :
 - log : displays a log `kylian-mbappe-lottin (limited) on sale https://sorare.com/football/cards/kylian-mbappe-lottin-2022-limited-1#`
-- desktop : displays a desktop native notification with the log message
 - browser : open the card listed in your browser
-- 
+  
 Rarity can be :
 - limited
 - rare
