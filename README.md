@@ -186,6 +186,20 @@ There's not many, be patient :)
 
 `Frenkie de Jong is listing https://www.soraredata.com/manager/frenkie-5ad7f7fe-d3c9-459c-9b1d-3dcc11d7db7b/sections/transactions`
 
+# FAQ
+
+#### What is a slug and how to get it
+
+A slug is a unique identifier. You've got one for each player, card, league...
+
+The easiest way to get a slug is to go to a page that displays your player and get it from your browser URL:
+
+For Mbappé, go to one of his page [https://sorare.com/football/players/kylian-mbappe-lottin/cards](https://sorare.com/football/players/kylian-mbappe-lottin/cards) to find his slug `kylian-mbappe-lottin`
+
+There is a relation between a player slug and his card's slugs : [https://sorare.com/football/cards/kylian-mbappe-lottin-2021-limited-494](https://sorare.com/football/cards/kylian-mbappe-lottin-2021-limited-494)
+
+You can notice cards slugs are the following : `PLAYERSLUG-SEASON-RARITY-SERIAL`
+
 # Who am I
 
 - @JeremyLavi on Twitter
