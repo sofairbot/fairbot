@@ -179,9 +179,19 @@ List all pros trades, either a listing or a transaction
 
 There's not many, be patient :)
 
+#### Run
+
+`node pros-trades.build.js`
+
+#### Expected results
+
+`Frenkie de Jong is listing https://www.soraredata.com/manager/frenkie-5ad7f7fe-d3c9-459c-9b1d-3dcc11d7db7b/sections/transactions`
+
 ### simple-player-tracker
 
 Track players listings for a rarity and trigger notifications. Players can be football, mlb or nba players. 
+
+#### Run
 
 Usage : `node simple-player-tracker.build.js player1-slug:limited,player2-slug:rarity notification`
 
@@ -200,13 +210,9 @@ Full example: `node simple-player-tracker.build.js kylian-mbappe-lottin:limited,
 
 Try with one of your cards !
 
-#### Run
-
-`node pros-trades.build.js`
-
 #### Expected results
 
-`Frenkie de Jong is listing https://www.soraredata.com/manager/frenkie-5ad7f7fe-d3c9-459c-9b1d-3dcc11d7db7b/sections/transactions`
+Displays a log or open a browser tab with the card according to your choice
 
 # FAQ
 
