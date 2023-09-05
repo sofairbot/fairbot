@@ -181,7 +181,7 @@ There's not many, be patient :)
 
 ### simple-player-tracker
 
-Track players listings for a rarity and trigger notifications
+Track players listings for a rarity and trigger notifications. Players can be football, mlb or nba players. 
 
 Usage : `node simple-player-tracker.build.js player1-slug:limited,player2-slug:rarity notification`
 
@@ -189,6 +189,13 @@ Notification can be :
 - log : displays a log `kylian-mbappe-lottin (limited) on sale https://sorare.com/football/cards/kylian-mbappe-lottin-2022-limited-1#`
 - desktop : displays a desktop native notification with the log message
 - browser : open the card listed in your browser
+- 
+Rarity can be :
+- limited
+- rare
+- super_rare
+- unique
+- custom_series
 
 Full example: `node simple-player-tracker.build.js kylian-mbappe-lottin:limited,enzo-jeremias-fernandez:rare browser`
 
