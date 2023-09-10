@@ -197,7 +197,7 @@ To configure your watchers, please go to [Watchers section](#user-content-watche
 
 #### Run
 
-Usage : `node fairbot.build.js fairbot-config.json`
+Usage : `node fairbot.build.js config/fairbot-config.json`
 
 Try with one of your cards !
 
@@ -221,7 +221,7 @@ Prints a log if watcher is configured that way.
 
 # FAQ
 
-### What is the fairbot-config.json
+### What is the config/fairbot-config.json
 
 This file contains what fairbot is expected to do along with its configuration.
 
@@ -345,6 +345,8 @@ Disabled watcher
       },
 ```
 
+You can have as many config file as you want in the `config` folder. Fairbot will pick the one you reference while starting the bot.
+
 ### How are prices configured in fairbot
 
 Prices are configured as ETH.
@@ -364,6 +366,30 @@ For Mbappé, go to one of his page [https://sorare.com/football/players/kylian-m
 There is a relation between a player slug and his card's slugs : [https://sorare.com/football/cards/kylian-mbappe-lottin-2021-limited-494](https://sorare.com/football/cards/kylian-mbappe-lottin-2021-limited-494)
 
 You can notice cards slugs are the following : `PLAYERSLUG-SEASON-RARITY-SERIAL`
+
+### More about fairbot ?
+
+Fairbot uses a config file, located in the `config` and a local database located in the `db` folder.
+
+#### config
+
+The config folder stores all your configuration. You can split configurations in different files according to your need. 
+
+Fairbot will only pick ONE config file at a time. Choose carefully while booting fairbot which one to start.
+
+You can store your config files outside this folder if you want, it's up to you. Reference it correctly when starting the bot.
+
+Config files may store your credentials if the `credendials` section is filled. **NEVER GIVE THIS FILE OR ITS CONTENT OR YOU LOOSE YOUR GALLERY**
+
+#### db
+
+This is a local database. Fairbot will store some data required by some scripts, along with your JWT API token, required to access the API while authenticated.
+
+This JWT is named signin-*your-slug*
+
+**NEVER GIVE THIS FILE OR ITS CONTENT OR YOU LOOSE YOUR GALLERY**
+
+Token need to be refreshed sometimes (once a month or so). Delete the file dans reboot the bot to generate a new one.
 
 # Who am I
 
