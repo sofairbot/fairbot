@@ -162,6 +162,7 @@ There is 2 kinds of scripts :
 |setup   | exec|yes  |no   |Setup once and for all the configuration required by other scripts |[setup.build.js](https://github.com/sofairbot/fairbot/releases/download/release/setup.build.js)  |
 |pro-trades   | listener | no  | no  | Listen to pro trades  | [pros-trades.build.js](https://github.com/sofairbot/fairbot/releases/download/release/pros-trades.build.js)  |
 |fairbot   | listener | no  | no  | Listen to player listings  | [fairbot.build.js](https://github.com/sofairbot/fairbot/releases/download/release/fairbot.build.js)  |
+|fairbot-merch   | listener | yes  | no  | Buy merch from football club shop  | [fairbot-merch.build.js](https://github.com/sofairbot/fairbot/releases/download/release/fairbot-merch.build.js)  |
 
 ## Details
 
@@ -218,6 +219,23 @@ List all your watchers on startup
 ```
 
 Prints a log if watcher is configured that way.
+
+### fairbot-merch
+
+Buy merch from the shop as soon as you have the required coins
+
+#### Configuration
+
+You need to setup a proper bot-config.json file. See credentials section.
+
+#### Run
+
+Usage : `node fairbot-merch.build.js config/fairbot-config.json`
+Usage with a size (default to M) : `node fairbot-merch.build.js config/fairbot-config.json M` Size can be : XS, S, M, L, XL, XXL
+
+#### Expected results
+
+Buy anything as long as it matches your size and you have coins. Cap, Jersey and so on
 
 # FAQ
 
