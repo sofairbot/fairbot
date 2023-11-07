@@ -226,12 +226,15 @@ Buy merch from the shop as soon as you have the required coins
 
 #### Configuration
 
-You need to setup a proper bot-config.json file. See credentials section.
+You need to setup a proper bot-config.json file. See [Credentials section](#setup-credentials).
 
 #### Run
 
 Usage : `node fairbot-merch.build.js config/fairbot-config.json`
-Usage with a size (default to M) : `node fairbot-merch.build.js config/fairbot-config.json M` Size can be : XS, S, M, L, XL, XXL
+
+Usage with a size (default to M) : `node fairbot-merch.build.js config/fairbot-config.json M` 
+
+Size can be : XS, S, M, L, XL, XXL
 
 #### Expected results
 
