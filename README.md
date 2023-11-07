@@ -238,7 +238,11 @@ Size can be : XS, S, M, L, XL, XXL
 
 #### Expected results
 
-Buy anything as long as it matches your size and you have coins. Cap, Jersey and so on
+Buy anything as long as it matches your size and you have coins. Cap, Jersey and so on.
+
+There is no garantee it will work as sorare LOVES to change the rules everytime
+
+It can help though running it background AND using the website (recommanded)
 
 # FAQ
 
